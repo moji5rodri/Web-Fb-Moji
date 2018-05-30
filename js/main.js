@@ -1,3 +1,16 @@
+$(document).ready(function(){
+        $('#loginfacebook').click(function(){
+
+            loginUsingFacebook();
+
+        });
+        $('#logoutfacebook').click(function(){
+
+            logoutFacebook();
+
+        });
+    });
+
 var controller = new ScrollMagic.Controller();
 
 var Scene1Left = new ScrollMagic.Scene({
